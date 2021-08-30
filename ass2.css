@@ -1,0 +1,185 @@
+body{
+    margin: 0 auto;
+    padding: 1%;
+    width: 70%;
+    min-width: 700px;
+    background-color: #a9a9a9;
+
+}
+header{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow:row wrap;
+    background-color:rgba(0,255,0,0.5);
+    padding: 1%;   
+}
+h1{
+    color: #2a2a2a;
+     font-family:'Cinzel Decorative',
+      cursive; font-size: 5rem;
+       text-align: center;flex: 5;
+       text-transform: uppercase;
+}
+p{
+font-family: 'Roboto Condensed'
+ sans-serif;color: #2a2a2a;
+  font-size: 1.6rem;
+   line-height: 1.5;
+   
+}
+nav{
+    background-color: rgba(0,255,0,0.5);
+     padding: 1%;
+     height: 50px;
+      flex: 100%;
+       display: flex;
+       display: inline-block;
+}
+li{
+    font-size: 1.7rem;
+     line-height: 1.5;
+     display: inline;
+     text-align: center;
+     flex: 1;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+ul{
+    padding: 0;
+     list-style-type: none;
+      flex: 2;
+       display: flex;
+
+}
+li a{
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
+}
+main{
+    background-color: rgba(0,255,0,0.5);
+     padding: 1%;
+     display: flex;
+     
+}
+article{
+    background-color: rgba(0,255,0,0.5);
+     padding: 1%;
+     flex: 4;
+}
+h2{
+    color: #2a2a2a;
+     font-family:'Cinzel Decorative',cursive;
+      font-size: 3rem;
+       text-align: center;
+}
+aside{
+    background-color: rgba(0,255,0,0.5);
+     padding: 1%;
+     flex: 1;
+     margin-left: 10px;
+     padding: 1%;
+    
+}
+h4{
+    color: #2a2a2a;
+     font-family:'Cinzel Decorative', cursive;
+      font-size: 3rem;
+       text-align: center; 
+}
+.top{
+    display: block;
+    float: left;
+    width: 50%;
+}
+.top image{
+    max-width: 100%;
+}
+footer{
+    background-color: rgba(0,255,0,0.5);
+     padding: 1%;
+     margin-top: 10px;
+}
+.bott{
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #2a2a2a;
+    font-size: 1.6rem
+}
+
+  
+  html {
+      margin: 0;
+      padding: 0;
+    font-size: 10px;
+    background-color: #a9a9a9;
+  }
+  
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  
+  h1, h2, h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #2a2a2a;
+  }
+  
+  p,li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2a2a2a;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  main, header, nav, article, aside, footer, section {
+    background-color: rgba(0,255,0,0.5);
+    padding: 1%;
+  }
+  
+  h1 {
+    flex: 5;
+    text-transform: uppercase;
+  }
+  
+  header img {
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+  }
+    
+ 
+  
+  article, section {
+    flex: 4;
+  }
+   
+  aside a {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  aside img {
+    max-width: 100%;
+  }
+  
+ 
